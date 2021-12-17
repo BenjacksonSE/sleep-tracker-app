@@ -1,0 +1,15 @@
+@import "./../../styles/variables.scss";
+
+.sidebar__container {
+  width: $appbarwidth;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.appbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
