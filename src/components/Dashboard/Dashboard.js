@@ -1,7 +1,13 @@
+import classes from "./Dashboard.module.scss"
+
 const Dashboard = () => {
   return (
-    <div>
-      dashboard
+    <div className={`${classes.scroll}`}>
+      <div className={`${classes.dashboard__container}`}>
+        <div className={classes.dashboard}>
+
+        </div>
+      </div>
     </div>
   )
 }

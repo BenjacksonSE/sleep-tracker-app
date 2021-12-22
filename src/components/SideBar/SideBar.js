@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 
 import classes from "./SideBar.module.scss";
 
@@ -18,12 +18,6 @@ const initialNavList = [
     {
         id: 2,
         text: "General",
-        isActive: false,
-        icon: (fillColor) => <svg fillColor={fillColor} />,
-    },
-    {
-        id: 5,
-        text: "Settings",
         isActive: false,
         icon: (fillColor) => <svg fillColor={fillColor} />,
     },

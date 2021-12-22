@@ -1,0 +1,42 @@
+@import "./../../styles/variables.scss";
+
+.scroll {
+  position: relative;
+  height: 100vh;
+  overflow: auto;
+  z-index: 1;
+  overflow-x: hidden;
+  width: 100%;
+  
+  &::-webkit-scrollbar-track {
+    width: 8px;
+  }
+  &::-webkit-scrollbar-thumb{
+    border-radius: $borderRadius;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-thumb{
+    border-radius: $borderRadius;
+  }
+
+}
+
+.dashboard__container {
+  margin-left: $sidebarwidth;
+  width: calc(100% - 15.875rem);
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 40px 120px;
+
+}
+
+.dashboard {
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
