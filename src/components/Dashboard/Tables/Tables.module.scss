@@ -1,0 +1,22 @@
+@import "./../../../styles/variables.scss";
+
+.tables {
+    flex: 4;
+    height: 100%;
+    border-radius: $borderRadius;
+    padding: 32px;
+
+    margin-right: 40px;
+
+    &__header {
+        display: flex;
+        margin-bottom: 24px;
+
+        &__title {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: $letterSpacing;
+            line-height: 25px;
+        }
+    }
+}
