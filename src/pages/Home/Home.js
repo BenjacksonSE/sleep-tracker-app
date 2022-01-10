@@ -1,5 +1,5 @@
-import SideBar from "../components/SideBar/SideBar"
-import Dashboard from "../components/Dashboard/Dashboard"
+import SideBar from "../../components/SideBar/SideBar"
+import Dashboard from "../../components/Dashboard/Dashboard"
 import classes from "./Home.module.scss";
 
 const Home = () => {
