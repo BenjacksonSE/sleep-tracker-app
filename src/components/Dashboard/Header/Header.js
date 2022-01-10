@@ -12,7 +12,7 @@ const Header = () => {
       </div> 
       <div className={classes.header__content__divider}></div>
       <div className={classes.header__content__profile}>
-        <span className={classes.profile__name}>Username</span>
+        <span className={classes.profile__name}>Ben Jackson</span>
         <div className={classes.profile__img}>
           <img src={""} alt="" className={classes.img} />
         </div>
@@ -20,5 +20,6 @@ const Header = () => {
     </div>
   )
 }
+
 
 export default Header

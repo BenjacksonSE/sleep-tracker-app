@@ -13,6 +13,79 @@
   letter-spacing: $letterSpacing;
   line-height: 30px;
   }
+  &__content  {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    &__links {
+      display: flex;
+      align-items: center;
+      height: 24px;
+
+      .link__icon {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        
+        &:not(:last-child) {
+          margin-right: 24px;
+        }
+      }
+
+      .link__icon__notification {
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          right: 3px;
+          top: 3px;
+          background: $purple;
+          border-radius: 50%;
+        }
+      }
+    }
+    &__divider {
+      height: 100%;
+      width: 1px;
+      margin: 0 32px;
+    }
+
+    &__profile {
+      display: flex;
+      align-items: center;
+
+      .profile__name {
+                cursor: pointer;
+                font-size: 14px;
+                font-weight: 600;
+                margin-right: 24px;
+                letter-spacing: $letterSpacing;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .profile__img {
+                cursor: pointer;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                box-shadow: 0px 0px 3px rgba($dark, 0.3);
+
+                .img {
+                    border-radius: 50%;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+    }
+  }
 }
 
 
