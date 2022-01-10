@@ -1,3 +1,4 @@
+import ChartContainer from "./ChartContainer/ChartContainer"
 import classes from "./ChartHeader.module.scss"
 
 const ChartHeader = () => {
@@ -18,7 +19,9 @@ const ChartHeader = () => {
             </div>
           </div>
         </div>
-        <div className={classes.chartheader__chart}></div>
+        <div className={classes.chartheader__chart}>
+          <ChartContainer />
+        </div>
       </div>
   )
 }
