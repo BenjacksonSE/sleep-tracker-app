@@ -2,6 +2,7 @@ import Header from "./Header/Header"
 import classes from "./Dashboard.module.scss"
 import Overview from "./Overview/Overview"
 import Summary from "./Summary/Summary"
+import ChartHeader from "./ChartHeader/ChartHeader"
 
 const Dashboard = () => {
   return (
@@ -11,6 +12,7 @@ const Dashboard = () => {
           <Header/>
           <Overview />
           <Summary />
+          <ChartHeader />
         </div>
       </div>
     </div>
